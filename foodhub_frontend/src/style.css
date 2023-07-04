@@ -1,0 +1,206 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type='text'],
+  form input[type='number'],
+  form input[type='checkbox'],
+  form button {
+    display: block;
+    padding: 8px;
+    width: 50%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: auto;
+  }
+  
+  form input[type='checkbox'] {
+    margin-top: 5px;
+  }
+  table button.toggle-availability {
+    padding: 4px 8px;
+    margin-right: 5px;
+    font-size: 14px;
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  table button.toggle-availability:hover {
+    background-color: #45a049;
+  }
+  
+  
+  form button {
+    
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    margin: auto;
+    margin-top: 10px;
+  }
+  
+  form button:hover {
+    background-color: #45a049;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  table button {
+    padding: 4px 8px;
+    margin-right: 5px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  table button:hover {
+    background-color: #d32f2f;
+  }
+  
+ 
+
+
+
+  .ordersection {
+    margin-top: 30px;
+  }
+  
+  .ordersection h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  
+  .ordersection form {
+    margin-bottom: 20px;
+  }
+  .ordersection  .takeorder {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  .ordersection form input[type="text"] {
+    width: 250px;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin: auto;
+  }
+  
+  .ordersection form button[type="submit"] {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .ordersection form button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .orderdetails {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 20px;
+  }
+  .orderdetails > .box{
+    border: 1px solid gray;
+    width: auto;
+    /* display: flex; */
+    gap: auto;
+    
+  }
+  .orderdetails > div  {
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+  }
+  
+  .orderdetails > .box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .orderdetails > div > div {
+    font-size: px;
+    margin-bottom: 10px;
+  }
+  
+  .orderdetails > div > div.ordered-dishes {
+    font-weight: bold;
+  }
+  
+  .orderdetails > div > div.status {
+    font-weight: bold;
+  }
+  
+  .orderdetails > div select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
